@@ -47,8 +47,40 @@
       text-align: justify;
       line-height: 2.2rem;
   }
+  .theOthers{
+    margin-left: -64px;
+    margin-top: -97px;
+    text-decoration: none;
+
+  }
+  .theOthers ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .theOthers li{
+    float: left;
+  }
+  .theOthers a{
+    text-decoration: none;
+    color: #c90f7e;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 14px 20px;   
+    font-weight: 600;
+    display: block;
+  }
+  .theOthers a:hover{
+    background-color: #c90f7e;
+    color: #01070e;
+    font-size: 2.7rem;
+  }
   @media screen and (max-width: 1023px){
       h1{
           font-size: 4vw;
+      }
+      .theOthers{
+        display: none;
       }
   }

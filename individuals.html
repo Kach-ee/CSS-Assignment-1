@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="individuals.css" />
+  </head>
+  <body>
+    <nav class="theOthers">
+      <ul>
+        <li><a href="./index.html">Otter</a></li>
+        <li><a href="./huckleberry.html">Huckleberry</a></li>
+        <li><a href="./novus.html">Novus</a></li>
+        <li><a href="./individuals.html">Individuals</a></li>
+      </ul>
+    </nav>
+    <section>
+      <main>
+        <div class="individual">
+          <img src="./wellness-logo.png" alt="" />
+          <h1>For Individuals</h1>
+          <p>
+            Start benefitting from the wellness experience. For <br />
+            companies looking on increasing productivity, and improving <br />
+            organization wellness.
+          </p>
+        </div>
+
+        <!--  -->
+
+        <div>
+          <form action="">
+            <div class="names">
+              <div>
+                <label for="Firstname">First Name</label>
+                <br />
+                <input type="text" placeholder="Tolu"/>
+              </div>
+              <div>
+                <label for="Lastname">Last Name</label>
+                <br />
+                <input type="text" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="Gender-dob">
+              <div>
+                <label for="Gender">Gender</label>
+                <br />
+                <select name="Gender" id="Gender">
+                  <option value="0" disabled selected>Select here</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+              </div>
+              <div>
+                <label for="Dateofbirth">Date of Birth</label>
+                <br />
+                <input type="date" placeholder="select here"/>
+              </div>
+            </div>
+            <!--  -->
+            <div class="Weight-height">
+              <div>
+                <label for="Weight">Weight (KG)</label>
+                <br />
+                <input type="number" placeholder="Enter weight" />
+              </div>
+              <div>
+                <label for="Lastname">Height (CM)</label>
+                <br />
+                <input type="number" placeholder="Enter height here" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="Activity">
+              <label for="Activity">Activity Level</label>
+              <br />
+              <select name="Activity" id="Activity">
+                <option value="0" disabled selected>Select here</option>
+                <option value="1">...</option>
+                <option value="2">...</option>
+                <option value="3">...</option>
+              </select>
+            </div>
+            <!--  -->
+            <div class="Password">
+              <label for="password">Password</label>
+              <br />
+              <input type="password" />
+            </div>
+            <!--  -->
+            <button type="submit">Register</button>
+            <p class="termsofuse">
+              By clicking register, you agree to our
+              <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>
+            </p>
+          </form>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>

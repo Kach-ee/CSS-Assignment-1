@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Georgia, Times, serif;
+  }
+  
+  body {
+    background-color: #a7a8cd;
+    border: 15px solid #ffff;
+    height: 100vh;
+  }
+  
+  .central {
+    height: 500px;
+    align-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 6%;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .central .pinText {
+    background-color: #f1e7b5;
+    padding: 7px 10px;
+    font-size: 0.7rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+  }
+  
+  .central .image {
+    height: 69%;
+  }
+  
+  .central .image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+  .central .mainText {
+    padding: 27px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .central .mainText h1 {
+    padding-bottom: 1.1rem;
+  }
+  
+  .central .mainText h1 span {
+    font-size: large;
+    color: #7c7c7c;
+  }
+  
+  .central .mainText p {
+    text-align: justify;
+    font-size: 1.1rem;
+    text-decoration: solid;
+    font-weight: normal;
+    line-height: 1.5rem;
+  }
+  .theOthers{
+    text-decoration: none;
+  }
+  .theOthers ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .theOthers li{
+    float: left;
+  }
+  .theOthers a{
+    text-decoration: none;
+    color: #686767;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 14px 20px;   
+    font-weight: 600;
+    display: block;
+  }
+  .theOthers a:hover{
+    background-color: #f1e7b5;
+    color: #000;
+    font-size: 2.7rem;
+  }
