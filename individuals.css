@@ -18,7 +18,6 @@ main {
   color: #2ec4b6;
   margin-inline: 50px;
   margin-block: 100px;
-  /* width: 100vw; */
 }
 
 form {
@@ -75,7 +74,6 @@ label {
 .names input {
   margin-top: 2%;
   padding: 0.7rem;
-  /* padding-right: 4rem; */
   border: 0px solid #c1bdbd;
   outline: 1px transparent #c1bdbd;
   border-radius: 1px;
@@ -127,7 +125,6 @@ label {
 
 .Weight-height input {
   padding: 0.7rem;
-  /* padding-right: 4rem; */
   border: 0px solid #c1bdbd;
   outline: 1px transparent #c1bdbd;
   border-radius: 1px;
@@ -206,28 +203,28 @@ button {
   color: #2ec4b6;
 }
 
-.theOthers{
+.theOthers {
   text-decoration: none;
   margin-left: 80px;
 }
-.theOthers ul{
+.theOthers ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
 
-.theOthers a{
+.theOthers a {
   text-decoration: none;
   color: #2e4458;
   font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
-  padding: 14px 20px;   
+  padding: 14px 20px;
   font-weight: 600;
   display: block;
 }
-.theOthers a:hover{
+.theOthers a:hover {
   background-color: #2ec4b6;
   color: #f7fdfc;
   font-size: 2.5rem;
@@ -274,6 +271,6 @@ button {
     display: grid;
   }
 }
-.theOthers{
+.theOthers {
   display: none;
 }

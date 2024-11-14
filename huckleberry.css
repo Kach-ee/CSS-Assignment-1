@@ -1,100 +1,98 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family:  Tahoma;
+  font-family: Tahoma;
   line-height: 1.5rem;
 }
-main{
+main {
   height: 100vh;
 }
-.lower{
+.lower {
   background-color: #68645f;
   border-top: 5px solid #9c9797;
 }
-.lowerDiv{
+.lowerDiv {
   background-color: #ffff;
   padding: 15px;
   border-bottom: 5px solid #9c9797;
   margin-top: 75px;
-  /* position: relative;
-  top: 20%; */
 }
-.lowerDiv div{
-  background-color: #F6BE00;
+.lowerDiv div {
+  background-color: #f6be00;
   padding: 10px 22px;
   max-width: 50%;
   margin-left: -22px;
   margin-top: -8.5px;
   margin-bottom: 10px;
   border-bottom: 5px solid #b48a00;
-  /* position: absolute; */
 }
-p{
+p {
   padding-top: 15px;
   font-size: 0.9rem;
 }
-.upper, .lower{
+.upper,
+.lower {
   padding: 50px 500px;
   min-height: 50vh;
   width: 70vw;
 }
-.greenWord{
+.greenWord {
   color: #03a062;
   font-weight: 600;
 }
-.upperDiv{
+.upperDiv {
   padding: 15px;
 }
-h2{
-  margin-bottom: 25px ;
+h2 {
+  margin-bottom: 25px;
   margin-top: 75px;
 }
-.theOthers{
+.theOthers {
   margin-left: 490px;
   text-decoration: none;
 }
-.theOthers ul{
+.theOthers ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.theOthers li{
+.theOthers li {
   float: left;
 }
-.theOthers a{
+.theOthers a {
   text-decoration: none;
   color: #68645f;
   font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
-  padding: 14px 20px;   
+  padding: 14px 20px;
   font-weight: 600;
   display: block;
 }
-.theOthers a:hover{
-  background-color: #F6BE00;
+.theOthers a:hover {
+  background-color: #f6be00;
   color: #01070e;
   font-size: 2.2rem;
 }
 @media screen and (max-width: 1024px) {
-  .upper, .lower{
-      padding: 50px 0;
-      min-height: 27vh;
-      width: 100vw;
-  } 
-  p{
-      text-align: justify;
+  .upper,
+  .lower {
+    padding: 50px 0;
+    min-height: 27vh;
+    width: 100vw;
   }
-  .theOthers{
+  p {
+    text-align: justify;
+  }
+  .theOthers {
     display: none;
   }
-  
 }
-@media screen and (max-width : 767px){
-  h2{
-      margin-top: 5px;
+@media screen and (max-width: 767px) {
+  h2 {
+    margin-top: 5px;
   }
-  .lowerDiv{
-      margin-top: -10px;
+  .lowerDiv {
+    margin-top: -10px;
   }
 }
